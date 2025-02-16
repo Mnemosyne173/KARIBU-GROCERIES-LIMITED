@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap-5.3.3/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>KGL | Add Users</title>
+</head>
+<body class="bg-light">
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-md-7 text-center">
+                <h1>Welcome Administrator</h1>
+                <p>
+                   Add user account to website to provied access
+                </p>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card border-primary" id="loginCard">
+                    <div class="card-header">
+                        <h4 class="card-title">Login</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <form>
+                            <form>
+                                <!-- Email -->
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <!-- Password -->
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Default Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                <!-- Dropdown -->
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Account type</option>
+                                    <option value="1">Manager</option>
+                                    <option value="2">Attendant</option>
+                                </select> 
+                                <div id="emailHelp" class="form-text">Select the account type from here.</div>                                    
+                                </div>
+                                <!-- remember me -->
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Remember Me?</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary"><a href="users.html" style="color:white;">Submit</a></button> <!--used inline here to stop clash with link styles on dashboard-->
+                            </form>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="css/bootstrap-5.3.3/js/bootstrap.bundle.js"></script>
+</body>
+</html>
