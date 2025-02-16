@@ -14,3 +14,18 @@
 .kgl-headers {
     background-color: beige;
 }
+
+.card-img-top{
+    max-height: 250px;
+}
+
+.row{
+    padding-bottom: 20px;
+}
+.card-header text kgl-headers{
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
